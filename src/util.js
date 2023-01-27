@@ -5,7 +5,7 @@ function chillHop() {
     {
       name: "Calm",
       cover:
-        "https://chillhop.com/wp-content/uploads/2020/06/d9d8ae69141cb7838e3c53bbf393c6218285e384-300x300.jpg",
+        "https://chillhop.com/wp-content/uploads/2020/06/d9d8ae69141cb7838e3c53bbf393c6218285e384.jpg",
       artist: "ØDYSSEE, Florent Garcia",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=9285",
       color: ["#DCBAB2", "#707ABC"],
@@ -14,13 +14,13 @@ function chillHop() {
     },
     {
       name: "Time to Chill",
-      cover: "https://i.scdn.co/image/ab67616d0000b2733cbdc58c3994427dc7f64d12",
-      //  https://chillhop.com/wp-content/uploads/2022/09/1a58532ef45339e1bd1a3324635e3cf133f9940b.jpg'
+      cover:
+        "https://chillhop.com/wp-content/uploads/2022/09/1a58532ef45339e1bd1a3324635e3cf133f9940b.jpg",
       artist: "C Y G N",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=45152",
       color: ["#FDFFF5", "#5E87C6"],
       id: uuidv4(),
-      active: true,
+      active: false,
     },
     {
       name: "Want to",
@@ -96,6 +96,33 @@ function chillHop() {
       artist: "Aiguille",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=9272",
       color: ["#FACCBB", "#81B5D2"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Beaver Creek",
+      cover: "https://i.scdn.co/image/ab67616d0000b27392ea33b2d11348d692352a33",
+      artist: "Aso, Middle School, Aviino",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=10076",
+      color: ["#47E5D6", "#FBBC77"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Under the city of stars",
+      cover: "https://i.scdn.co/image/ab67616d0000b27392ea33b2d11348d692352a33",
+      artist: "Aso, Middle School, Aviino",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=10074",
+      color: ["#47E5D6", "#FBBC77"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Firefly Field",
+      cover: "https://i.scdn.co/image/ab67616d0000b27392ea33b2d11348d692352a33",
+      artist: "Aso, Middle School, Aviino",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=10078",
+      color: ["#47E5D6", "#FBBC77"],
       id: uuidv4(),
       active: false,
     },
