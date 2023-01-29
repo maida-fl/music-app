@@ -1,5 +1,3 @@
-import React from "react";
-
 const Song = ({ currentSong }) => {
   return (
     <div className="song-container">
