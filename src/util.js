@@ -10,7 +10,7 @@ function chillHop() {
       audio: "https://mp3.chillhop.com/serve.php/?mp3=7985",
       color: ["#8FD0E2", "#2D909D"],
       id: uuidv4(),
-      active: false,
+      active: true,
     },
     {
       name: "The Shore and You",
@@ -104,7 +104,7 @@ function chillHop() {
       audio: "https://mp3.chillhop.com/serve.php/?mp3=9285",
       color: ["#DCBAB2", "#707ABC"],
       id: uuidv4(),
-      active: true,
+      active: false,
     },
     {
       name: "Time to Chill",
