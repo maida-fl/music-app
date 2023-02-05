@@ -36,6 +36,7 @@ function App() {
         songInfo={songInfo}
         setSongInfo={setSongInfo}
         songs={songs}
+        setSongs={setSongs}
         setCurrentSong={setCurrentSong}
       />
       <Library
