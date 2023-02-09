@@ -19,6 +19,7 @@
   align-items: center;
   padding: 1rem 2rem;
   cursor: pointer;
+  transition: background 0.4s ease;
   img {
     width: 20%;
   }
@@ -58,4 +59,10 @@
 .active-library {
   opacity: 1;
   transform: translateX(0%);
+}
+
+@media (max-width: 768px) {
+  .library {
+    width: 100%;
+  }
 }
