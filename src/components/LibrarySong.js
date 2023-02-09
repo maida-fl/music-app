@@ -25,7 +25,7 @@ const LibrarySong = ({
     });
     setSongs(newSongs);
     if (isPlaying) {
-      audioRef.current.Play();
+      audioRef.current.play();
     }
   };
   return (

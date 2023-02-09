@@ -38,7 +38,10 @@ function App() {
   const songEndHandler = async () => {
     let currentIndex = songs.findIndex((song) => song.id === currentSong.id);
     await setCurrentSong(songs[(currentIndex + 1) % songs.length]);
-    // if (isPlaying) audioRef.current.play();
+    // Check if the audio element is ready before calling play
+    audioRef.current.oncanplay = () => {
+      if (isPlaying) audioRef.current.play();
+    };
   };
   return (
     <div className="App">
@@ -68,7 +71,7 @@ function App() {
         onLoadedMetadata={timeUpdateHandler}
         ref={audioRef}
         src={currentSong.audio}
-        onEnded={songEndHandler}
+        onEnded={() => songEndHandler()}
       ></audio>
     </div>
   );
