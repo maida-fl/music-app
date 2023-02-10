@@ -2,6 +2,8 @@
 
 Music App
 
+![ mood - home ](./public/mood-player.png)
+
 ## 🔭 Deployment
 
 https://mood-music-app.onrender.com
