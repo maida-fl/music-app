@@ -2,7 +2,7 @@
 
 Music App
 
-![ mood - home ](./public/mood-player.png)
+![ mood - home ](./public/mood.png)
 
 ## 🔭 Deployment
 
